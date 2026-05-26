@@ -120,3 +120,16 @@ SELECT examples.txt salon.sh script.sh FROM customers
 psql --username=freecodecamp --dbname=postgres
 ./salon.sh
 git add .
+git commit -m"Salon project freecodecamp"
+git push
+git remote add origin https://github.com/nathanguevara11/freecodecamp-salon-project.git
+git push -u origin master
+git push -u origin main
+git remote -v
+gh auth login
+git status
+git branch
+git push
+git push --set-upstream origin master
+git credential reject
+git push
